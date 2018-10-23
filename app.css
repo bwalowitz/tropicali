@@ -74,6 +74,24 @@ body {
   font-family: "Jost";
   line-height: 1.5;
   font-size: 24px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 500px;
+}
+@media (max-width: 600px) {
+  section {
+    width: 350px;
+    font-size: 16px;
+  }
+}
+section p {
+  margin: 24px 0 0 0;
 }
 
 /*# sourceMappingURL=app.css.map */
