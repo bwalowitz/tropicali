@@ -1,10 +1,16 @@
 @import "reset";
+@import "typography";
 
 
-$primary-color: orange;
+$primary-color: #f70201;
+$body-font: "Jost";
+$body-size: 24px;
 
 
 body {
     background-color: $primary-color;
     color: #ffffff; 
+    font-family: $body-font;
+    line-height: 1.5;
+    font-size: $body-size;
 }
