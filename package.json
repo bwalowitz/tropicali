@@ -1,0 +1,29 @@
+{
+  "name": "tropicali",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwalowitz/tropicali.git"
+  },
+  "author": "Brandon Walowitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwalowitz/tropicali/issues"
+  },
+  "homepage": "https://github.com/bwalowitz/tropicali#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gh-pages": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass": "^4.9.4"
+  }
+}
